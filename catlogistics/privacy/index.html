@@ -72,11 +72,11 @@
     <div class="hero">
       <h1>Privacy Policy — Cat Logistics</h1>
       <p class="muted"><strong>Developer:</strong> Off Quantum Studios<br>
-      <strong>Last updated:</strong> 5 October 2026</p>
+      <strong>Last updated:</strong> 13 October 2026</p>
       <nav>
         <a href="#english">English</a>
         <a href="#italiano">Italiano</a>
-        <a href="https://offquantumstudios.com/catlogistics/terms/">Terms of Use</a>
+        <a href="https://offquantumstudios.com/catlogistics/terms/" rel="noopener noreferrer">Terms of Use / Termini</a>
       </nav>
     </div>
 
@@ -98,9 +98,12 @@
       <p>Clearing the Game's app data or uninstalling the Game may remove locally stored information. Cloud-synchronized data may remain associated with your Google account according to Google's retention and deletion practices.</p>
 
       <h2>3. Google Play Games and cloud save</h2>
-      <p>Cat Logistics may use <strong>Google Play Games Services</strong> to provide cloud synchronization of game progress and related game services.</p>
-      <p>When these features are used, Google may process information associated with your Google Play Games profile, device and gameplay, including identifiers and saved progress needed to provide those services. Cat Logistics may send game progress and save data to Google Play Games Services so that progress can be restored or synchronized across supported devices.</p>
-      <p>We do not receive your Google account password. Google processes information through Google Play Games Services according to Google's own privacy policies and account settings.</p>
+<p>The Game may use <strong>Google Play Games Services</strong> for player sign-in, achievements and synchronization of progress. These functions use a Google Play Games profile managed by Google; no separate Off Quantum Studios account is created.</p>
+      <p>When you use Play Games, the Game receives a player identifier and display name from Google. The display name is shown in the Game's settings but is not added to the cloud-save snapshot. For save verification, the Game creates a one-way SHA-256 hash of the Play Games player identifier and includes the hash in the save data. The hash remains an account-related identifier; hashing does not make it necessarily anonymous.</p>
+      <p>The saved snapshot may include your highest completed level, game currency balances and counters, owned and selected themes, daily reward status, gameplay statistics, a revision value and a random identifier generated for that installation. It does not include your current level layout, gameplay settings or the purchase receipt for “Remove Ads”. The data is transmitted to Google Play Games for saving and restoration; the Game does not operate its own cloud-save server.</p>
+      <p>We do not receive your Google account password or obtain your Google account email address through this Play Games integration. Google's processing is also governed by its own policies. You can manage or delete Play Games data for individual games through <a href="https://play.google.com/games/profile" rel="noopener noreferrer">your Play Games profile</a>. Deleting cloud data may affect your saved progress and achievements; it does not automatically erase local data stored on a device.</p>
+
+
 
       <h2>4. Advertising</h2>
       <p>Cat Logistics integrates <strong>Google AdMob / Google Mobile Ads SDK</strong> to display advertising. Formats may include banner ads, interstitial ads and rewarded video ads.</p>
@@ -127,55 +130,79 @@
       <p>The Game may receive purchase-related technical information required to verify and provide a purchase, such as the product purchased, purchase status, transaction or receipt information and whether an entitlement such as “Remove Ads” is active.</p>
 
       <h2>8. Diagnostic and technical data through Unity</h2>
-      <p>The Game is developed using the Unity engine. Unity Engine Diagnostics may automatically process technical information to identify crashes, errors and performance problems.</p>
-      <p>This may include crash reports, application errors, performance and diagnostic information, device model, operating system version, hardware characteristics and installation-specific or technical identifiers.</p>
-      <p>The purpose of this processing is to improve the stability, compatibility, security and reliability of the Game and the Unity engine. We do not use Unity diagnostic information for advertising.</p>
-      <p>For more information, see <a href="https://unity.com/legal/privacy-policy" rel="noopener noreferrer">Unity's Privacy Policy</a>.</p>
+<p>The Game is developed with the Unity engine. <strong>Some versions distributed for testing, including version 0.9.1 (14), include Unity Engine Diagnostics</strong>. In versions where it is enabled, Unity may automatically collect crash reports, error and performance information, technical device characteristics and an installation-specific identifier. This collection is separate from advertising consent and is not used by us for advertising.</p>
+      <p>Off Quantum Studios is responsible for determining the purposes and legal basis of this diagnostic processing; Unity Technologies processes the diagnostic data on our behalf. Unity documents a default retention period of 90 days for this Diagnostics service. Requests concerning data under our responsibility may be sent to <a href="mailto:support@offquantumstudios.com">support@offquantumstudios.com</a> and may require cooperation with Unity.</p>
+      <p>Engine Diagnostics has been disabled in the development configuration for upcoming Android builds; this does not retroactively stop collection by earlier versions still installed or erase data already collected. Other providers, including Google Mobile Ads, may still process technical and diagnostic information as described above. See <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener noreferrer">Unity's Game Player and App User Privacy Policy</a>.</p>
+
+
 
       <h2>9. Notifications</h2>
       <p>If you grant notification permission, Cat Logistics may schedule local reminder notifications directly on your device. These reminders do not require a remote push-notification service operated by Off Quantum Studios. You can disable notifications at any time in Android settings.</p>
 
       <h2>10. External links and sharing</h2>
-      <p>The Game may open external applications or websites, including Google Play, legal pages, support email applications or Android's sharing interface.</p>
+<p>The Game may open external applications or websites, including Google Play, legal pages, support email applications or Android's sharing interface.</p>
       <p>If you use the Share feature, Cat Logistics opens the Android sharing interface. The destination application you choose is responsible for any information you decide to share through it.</p>
+      <p>If you choose to email our support address, we receive the email address and any other information you voluntarily include in that message. This communication takes place through your email application, not through a separate account-registration or email-collection feature within the Game.</p>
+
+
 
       <h2>11. Third-party service providers</h2>
-      <p>Depending on the features used, Cat Logistics relies primarily on Google services, including Google Play, Google Play Games Services, Google Mobile Ads / AdMob and Google User Messaging Platform, and on Unity Technologies for the Unity engine and diagnostic services.</p>
-      <p>Advertising partners listed in the privacy consent message may also process information when advertising is provided.</p>
+<p>Depending on the features used, Cat Logistics relies on Google Play, Google Play Games Services, Google Mobile Ads / AdMob, Google User Messaging Platform and Google Play In-App Updates. The Game is built with Unity. Unity's Engine Diagnostics applies only to versions where that feature is enabled, as explained in section 8.</p>
+      <p>Advertising partners identified in the privacy consent message may also process information in connection with advertising. Cat Logistics does not integrate Firebase Analytics or Firebase Crashlytics.</p>
+      <p><strong>In-app updates:</strong> Google Play In-App Updates may check for a newer version using technical details such as the installed app version. This process is provided by Google Play; Off Quantum Studios does not receive a separate record of these update checks.</p>
+
+
 
       <h2>12. Sharing and sale of personal data</h2>
       <p>We do not sell personal data. Information may be processed by service providers when necessary to operate features of the Game, including advertising, purchases, cloud save, consent management and diagnostics.</p>
       <p>Advertising data may be processed by Google and advertising partners according to your privacy choices and applicable law.</p>
 
       <h2>13. Security</h2>
-      <p>We rely on established platform providers such as Google and Unity for services that require network communication. Information transmitted to these providers is protected according to the security mechanisms implemented by those providers.</p>
-      <p>No method of electronic transmission or storage can be guaranteed to be completely secure.</p>
+<p>Network communications made by the integrated services (including Google Mobile Ads, Google UMP, Google Play Games, Google Play and Unity) use encrypted connections, such as HTTPS/TLS, according to the providers' implementation and documentation. The Game does not upload personal data to servers operated by Off Quantum Studios.</p>
+      <p>We rely on the safeguards of the services we integrate. No method of electronic transmission or storage can be guaranteed to be completely secure.</p>
+
+
 
       <h2>14. Retention and deletion</h2>
+      <p><strong>Removing data yourself:</strong> You do not need to create or delete an Off Quantum Studios account. To remove local game data, open Android Settings → Apps → Cat Logistics → Storage → Clear data (menu names may vary), or uninstall the Game. To remove data for Cat Logistics from Google Play Games, open <a href="https://play.google.com/games/profile" rel="noopener noreferrer">your Play Games profile</a> → Your data → Delete Play Games account and data → Delete individual game data → Cat Logistics → Delete. These are Google's own controls; you do not need to delete your entire Google account. See <a href="https://support.google.com/googleplay/answer/9130646?hl=en" rel="noopener noreferrer">Google's official instructions</a>.</p>
+      <p>Removing Play Games data may delete cloud progress and achievements, but it does not necessarily delete local game data, Google Play purchase records, advertising provider data or data previously processed by other service providers. If you keep playing with local data present, the Game may synchronize progress again.</p>
       <ul>
-        <li><strong>Local game data:</strong> remains on your device until overwritten, cleared through Android settings or the Game is uninstalled.</li>
-        <li><strong>Cloud save and Google Play Games data:</strong> may remain associated with your Google account according to Google's retention and deletion controls.</li>
-        <li><strong>Advertising and consent data:</strong> is retained according to Google and applicable advertising partners' policies.</li>
-        <li><strong>Purchase information:</strong> may be retained by Google Play for transaction, security, accounting or legal purposes.</li>
-        <li><strong>Unity diagnostic information:</strong> is retained according to Unity's applicable privacy practices.</li>
+        <li><strong>Local game data:</strong> generally remains on your device until changed, cleared through Android settings or the Game is uninstalled. Uninstalling does not necessarily delete cloud data.</li>
+        <li><strong>Cloud save and Play Games:</strong> remains subject to Google's account controls and retention practices. You can manage or delete data associated with the Game in <a href="https://play.google.com/games/profile" rel="noopener noreferrer">your Play Games profile</a>. Deletion may affect achievements or game progress, and it does not automatically clear data kept locally on other devices.</li>
+        <li><strong>Advertising and consent information:</strong> retention is determined by Google and, where applicable, advertising partners according to their policies and legal obligations.</li>
+        <li><strong>Purchase information:</strong> may be retained by Google Play for transactions, fraud prevention, accounting and other legal obligations.</li>
+        <li><strong>Unity Diagnostics in versions where enabled:</strong> Unity documents a default retention period of 90 days. Turning the feature off in a later Game build does not immediately delete earlier records.</li>
+        <li><strong>Support correspondence:</strong> messages you voluntarily send may be retained as needed to respond to your request and comply with relevant obligations; no fixed retention period is asserted here.</li>
       </ul>
+      <p>For questions or requests to exercise applicable privacy rights, including erasure, contact <a href="mailto:support@offquantumstudios.com">support@offquantumstudios.com</a>. We will review requests concerning data for which we are responsible. Deletion of data controlled independently by Google or other providers may also require using their account tools or making a request to them. We cannot guarantee deletion of all records where legal exceptions apply.</p>
+
+
 
       <h2>15. Children</h2>
       <p>Cat Logistics is intended for users aged 13 and older. We do not ask users to directly provide personal details such as their name, telephone number, postal address or personal photographs through the Game.</p>
       <p>Google Play, advertising and consent services may apply additional protections depending on age, region and the audience configuration of the Game.</p>
 
       <h2>16. Your privacy rights</h2>
-      <p>Depending on where you live, you may have legal rights regarding personal data, including rights to access, information, correction, deletion, restriction, objection or withdrawal of consent.</p>
-      <p>Users in the European Economic Area may also have the right to lodge a complaint with the competent data protection supervisory authority.</p>
-      <p>Advertising consent can be reviewed or changed through the privacy options provided in the Game where available. Some information is processed directly by Google or Unity, and requests concerning data controlled by those providers may need to be submitted using their own privacy or account-management tools.</p>
+<p>Depending on your location and applicable law, you may have rights to information, access, rectification, erasure, restriction, data portability or objection, and to withdraw consent without affecting the lawfulness of earlier processing.</p>
+      <p>Where available in the Game, advertising privacy choices can be reviewed and changed under Settings → Privacy options. Some processing by independent service providers is governed by their own privacy controls and policies.</p>
+      <p>You may contact us at <a href="mailto:support@offquantumstudios.com">support@offquantumstudios.com</a> about rights relating to data for which we are responsible. If you are in the EEA, you also have the right to complain to a competent data protection supervisory authority.</p>
+
+
 
       <h2>17. International processing</h2>
-      <p>Google, Unity and advertising partners may process information in countries other than the country in which you live. Where required by law, those providers are responsible for applying appropriate safeguards to international transfers of personal data.</p>
+<p>Google, Unity and advertising partners may process data in countries other than your country of residence, including outside the European Economic Area. Where applicable, we and the relevant providers rely on the legal transfer mechanisms and safeguards required by data protection law, as further described in those providers' privacy information.</p>
 
-      <h2>18. Changes to this Privacy Policy</h2>
+
+
+      <h2>18. Legal bases for processing</h2>
+      <p>Where the EU General Data Protection Regulation applies, the legal basis depends on the specific processing: providing requested game services, cloud synchronization and purchase-related features may be necessary to perform a contract (Article 6(1)(b)); processing for which consent is required, particularly certain advertising purposes, relies on consent (Article 6(1)(a)); processing required by law may rely on legal obligations (Article 6(1)(c)).</p>
+      <p>Security, fraud prevention and maintaining the reliability of the Game may, where permitted, rely on legitimate interests (Article 6(1)(f)), subject to a balancing assessment and any separate requirements for storing or accessing information on a device. These descriptions do not remove consent requirements imposed by applicable privacy or electronic communications law. Diagnostic processing in older test builds remains subject to the same assessment.</p>
+
+      <h2>19. Changes to this Privacy Policy</h2>
       <p>We may update this Privacy Policy when Cat Logistics changes, new functionality is introduced, service providers change or legal requirements are updated. The “Last updated” date at the top of this page identifies the latest revision.</p>
 
-      <h2>19. Contact</h2>
+      <!-- PRE-PUBLICATION REVIEW: Confirm legal identity and postal contact address of the data controller. Do not publish invented information. -->
+      <h2>20. Contact</h2>
       <p><strong>Off Quantum Studios</strong><br>
       Privacy and support: <a href="mailto:support@offquantumstudios.com">support@offquantumstudios.com</a></p>
     </section>
@@ -198,9 +225,12 @@
       <p>La cancellazione dei dati dell'app o la disinstallazione del Gioco può eliminare i dati memorizzati localmente. I dati sincronizzati nel cloud possono rimanere associati al tuo account Google secondo le politiche di conservazione e cancellazione di Google.</p>
 
       <h2>3. Google Play Games e salvataggio cloud</h2>
-      <p>Cat Logistics può utilizzare <strong>Google Play Games Services</strong> per offrire la sincronizzazione cloud dei progressi e altri servizi collegati al gioco.</p>
-      <p>Quando utilizzi queste funzionalità, Google può trattare informazioni associate al tuo profilo Google Play Games, al dispositivo e all'attività di gioco, inclusi identificatori e progressi salvati necessari per fornire tali servizi. Cat Logistics può inviare progressi e dati di salvataggio a Google Play Games Services per consentire il recupero o la sincronizzazione dei progressi tra dispositivi supportati.</p>
-      <p>Non riceviamo la password del tuo account Google. Google tratta le informazioni tramite Google Play Games Services secondo le proprie norme sulla privacy e le impostazioni del tuo account.</p>
+<p>Il Gioco può utilizzare <strong>Google Play Games Services</strong> per l'accesso del giocatore, gli obiettivi e la sincronizzazione dei progressi. Queste funzioni utilizzano il profilo Google Play Games gestito da Google; non viene creato un account separato Off Quantum Studios.</p>
+      <p>Quando utilizzi Play Games, il Gioco riceve da Google un identificatore del giocatore e un nome visualizzato. Il nome viene mostrato nelle impostazioni del Gioco, ma non viene inserito nel salvataggio cloud. Per verificare il salvataggio, il Gioco calcola un hash unidirezionale SHA-256 dell'identificatore Play Games e lo include nei dati salvati. L'hash rimane un identificatore collegato all'account: non è necessariamente un dato anonimo.</p>
+      <p>Il salvataggio può contenere il livello massimo completato, saldi e contatori delle valute di gioco, temi posseduti e selezionati, stato delle ricompense giornaliere, statistiche di gioco, un valore di revisione e un identificatore casuale generato per l'installazione. Non contiene la disposizione del livello corrente, le impostazioni di gioco o la ricevuta dell'acquisto “Rimuovi pubblicità”. Queste informazioni vengono trasmesse a Google Play Games per il salvataggio e il ripristino; il Gioco non utilizza un proprio server per i salvataggi cloud.</p>
+      <p>Non riceviamo la password del tuo account Google e non otteniamo il tuo indirizzo email Google tramite questa integrazione Play Games. Il trattamento effettuato da Google è disciplinato anche dalle sue informative. Puoi gestire o eliminare i dati Play Games di singoli giochi attraverso <a href="https://play.google.com/games/profile" rel="noopener noreferrer">il tuo profilo Play Games</a>. L'eliminazione dei dati cloud può comportare la perdita di progressi e obiettivi e non cancella automaticamente i dati locali presenti sul dispositivo.</p>
+
+
 
       <h2>4. Pubblicità</h2>
       <p>Cat Logistics integra <strong>Google AdMob / Google Mobile Ads SDK</strong> per mostrare pubblicità. I formati possono comprendere banner, annunci interstitial e video con premio.</p>
@@ -227,55 +257,79 @@
       <p>Il Gioco può ricevere informazioni tecniche sull'acquisto necessarie per verificare e fornire il prodotto acquistato, ad esempio il prodotto acquistato, lo stato dell'acquisto, informazioni sulla transazione o ricevuta e l'eventuale attivazione di un diritto come “Rimuovi pubblicità”.</p>
 
       <h2>8. Dati diagnostici e tecnici tramite Unity</h2>
-      <p>Il Gioco è sviluppato utilizzando il motore Unity. Unity Engine Diagnostics può trattare automaticamente informazioni tecniche per individuare crash, errori e problemi di prestazioni.</p>
-      <p>Queste informazioni possono comprendere report di arresti anomali, errori dell'applicazione, dati sulle prestazioni e diagnostica, modello del dispositivo, versione del sistema operativo, caratteristiche hardware e identificatori tecnici o specifici dell'installazione.</p>
-      <p>La finalità è migliorare stabilità, compatibilità, sicurezza e affidabilità del Gioco e del motore Unity. Non utilizziamo i dati diagnostici Unity per finalità pubblicitarie.</p>
-      <p>Per maggiori informazioni consulta <a href="https://unity.com/legal/privacy-policy" rel="noopener noreferrer">l'informativa sulla privacy di Unity</a>.</p>
+<p>Il Gioco è sviluppato con il motore Unity. <strong>Alcune versioni distribuite per i test, inclusa la versione 0.9.1 (14), comprendono Unity Engine Diagnostics</strong>. Nelle versioni in cui è attivo, Unity può raccogliere automaticamente report sugli arresti anomali, errori, informazioni sulle prestazioni, caratteristiche tecniche del dispositivo e un identificatore specifico dell'installazione. Questa raccolta è distinta dal consenso pubblicitario e non utilizziamo tali informazioni per pubblicità.</p>
+      <p>Off Quantum Studios è responsabile della determinazione delle finalità e della base giuridica di questo trattamento diagnostico; Unity Technologies tratta i dati diagnostici per nostro conto. Unity documenta un periodo di conservazione predefinito di 90 giorni per questo servizio Diagnostics. Le richieste relative ai dati sotto la nostra responsabilità possono essere inviate a <a href="mailto:support@offquantumstudios.com">support@offquantumstudios.com</a> e possono richiedere la collaborazione di Unity.</p>
+      <p>Engine Diagnostics è stato disattivato nella configurazione di sviluppo per le prossime build Android; ciò non interrompe retroattivamente la raccolta nelle versioni precedenti ancora installate, né elimina i dati già raccolti. Altri fornitori, incluso Google Mobile Ads, possono comunque trattare dati tecnici e diagnostici come descritto sopra. Consulta anche <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener noreferrer">l'informativa Unity per gli utenti di giochi e app</a>.</p>
+
+
 
       <h2>9. Notifiche</h2>
       <p>Se concedi l'autorizzazione alle notifiche, Cat Logistics può programmare promemoria locali direttamente sul dispositivo. Questi promemoria non richiedono un servizio remoto di notifiche push gestito da Off Quantum Studios. Puoi disattivare le notifiche in qualsiasi momento dalle impostazioni Android.</p>
 
       <h2>10. Link esterni e condivisione</h2>
-      <p>Il Gioco può aprire applicazioni o pagine esterne, ad esempio Google Play, pagine legali, applicazioni email per il supporto o l'interfaccia di condivisione Android.</p>
+<p>Il Gioco può aprire applicazioni o pagine esterne, ad esempio Google Play, pagine legali, applicazioni email per il supporto o l'interfaccia di condivisione Android.</p>
       <p>Se utilizzi la funzione Condividi, Cat Logistics apre l'interfaccia di condivisione Android. L'applicazione di destinazione scelta è responsabile delle informazioni che decidi di condividere tramite essa.</p>
+      <p>Se scegli di scrivere al nostro indirizzo di assistenza, riceviamo il tuo indirizzo email e le altre informazioni che inserisci volontariamente nel messaggio. La comunicazione avviene tramite la tua applicazione di posta, non attraverso una funzione di registrazione o raccolta delle email interna al Gioco.</p>
+
+
 
       <h2>11. Fornitori di servizi di terze parti</h2>
-      <p>A seconda delle funzionalità utilizzate, Cat Logistics si affida principalmente ai servizi Google, inclusi Google Play, Google Play Games Services, Google Mobile Ads / AdMob e Google User Messaging Platform, e a Unity Technologies per il motore Unity e i relativi servizi diagnostici.</p>
-      <p>Anche i partner pubblicitari indicati nel messaggio di consenso alla privacy possono trattare informazioni quando vengono mostrati annunci.</p>
+<p>A seconda delle funzionalità utilizzate, Cat Logistics si affida a Google Play, Google Play Games Services, Google Mobile Ads / AdMob, Google User Messaging Platform e Google Play In-App Updates. Il Gioco è sviluppato con Unity. Unity Engine Diagnostics riguarda soltanto le versioni nelle quali tale funzione è attiva, come descritto nella sezione 8.</p>
+      <p>Anche i partner pubblicitari identificati nel messaggio di consenso possono trattare dati in relazione alla pubblicità. Cat Logistics non integra Firebase Analytics né Firebase Crashlytics.</p>
+      <p><strong>Aggiornamenti in-app:</strong> Google Play In-App Updates può verificare la disponibilità di nuove versioni utilizzando dati tecnici quali la versione dell'app installata. La procedura è gestita da Google Play; Off Quantum Studios non riceve un registro separato di queste verifiche.</p>
+
+
 
       <h2>12. Condivisione e vendita dei dati personali</h2>
       <p>Non vendiamo dati personali. Le informazioni possono essere trattate dai fornitori di servizi quando necessario per il funzionamento delle funzionalità del Gioco, incluse pubblicità, acquisti, salvataggio cloud, gestione del consenso e diagnostica.</p>
       <p>I dati pubblicitari possono essere trattati da Google e dai partner pubblicitari secondo le tue scelte sulla privacy e la normativa applicabile.</p>
 
       <h2>13. Sicurezza</h2>
-      <p>Per i servizi che richiedono comunicazioni di rete ci affidiamo a fornitori di piattaforme consolidati come Google e Unity. Le informazioni trasmesse a questi fornitori sono protette secondo i meccanismi di sicurezza implementati dai rispettivi servizi.</p>
-      <p>Nessun metodo di trasmissione elettronica o archiviazione può essere garantito come completamente sicuro.</p>
+<p>Le comunicazioni di rete effettuate dai servizi integrati (tra cui Google Mobile Ads, Google UMP, Google Play Games, Google Play e Unity) utilizzano connessioni cifrate, come HTTPS/TLS, secondo l'implementazione e la documentazione dei fornitori. Il Gioco non carica dati personali su server gestiti da Off Quantum Studios.</p>
+      <p>Ci affidiamo alle misure di sicurezza dei servizi integrati. Nessun metodo di trasmissione elettronica o archiviazione può essere garantito come completamente sicuro.</p>
+
+
 
       <h2>14. Conservazione ed eliminazione</h2>
+      <p><strong>Come eliminare autonomamente i dati:</strong> non è necessario creare o cancellare un account Off Quantum Studios. Per eliminare i dati locali del Gioco, apri Impostazioni Android → App → Cat Logistics → Memoria/Spazio di archiviazione → Cancella dati (i nomi dei menu possono variare), oppure disinstalla il Gioco. Per eliminare i dati di Cat Logistics da Google Play Giochi, apri <a href="https://play.google.com/games/profile" rel="noopener noreferrer">il tuo profilo Play Giochi</a> → I tuoi dati → Elimina l'account e i dati di Play Giochi → Elimina i dati di singoli giochi → Cat Logistics → Elimina. Sono strumenti di Google: non serve eliminare l'intero account Google. Consulta le <a href="https://support.google.com/googleplay/answer/9130646?hl=it" rel="noopener noreferrer">istruzioni ufficiali di Google</a>.</p>
+      <p>Eliminare i dati di Play Giochi può comportare la perdita di progressi e obiettivi cloud, ma non elimina necessariamente i dati locali, i registri degli acquisti di Google Play, i dati dei fornitori pubblicitari o quelli trattati in precedenza da altri fornitori. Se continui a giocare con dati locali ancora presenti, il Gioco potrebbe sincronizzare nuovamente i progressi.</p>
       <ul>
-        <li><strong>Dati di gioco locali:</strong> rimangono sul dispositivo fino a quando vengono sovrascritti, cancellati dalle impostazioni Android o il Gioco viene disinstallato.</li>
-        <li><strong>Dati cloud e Google Play Games:</strong> possono rimanere associati al tuo account Google secondo i controlli di conservazione e cancellazione di Google.</li>
-        <li><strong>Dati pubblicitari e relativi al consenso:</strong> vengono conservati secondo le politiche di Google e degli eventuali partner pubblicitari applicabili.</li>
-        <li><strong>Informazioni sugli acquisti:</strong> possono essere conservate da Google Play per finalità relative a transazioni, sicurezza, contabilità o obblighi legali.</li>
-        <li><strong>Dati diagnostici Unity:</strong> vengono conservati secondo le pratiche sulla privacy applicabili di Unity.</li>
+        <li><strong>Dati di gioco locali:</strong> di norma rimangono sul dispositivo fino alla loro modifica, alla cancellazione dalle impostazioni Android o alla disinstallazione. La disinstallazione non elimina necessariamente i dati cloud.</li>
+        <li><strong>Salvataggi cloud e Play Games:</strong> sono soggetti ai controlli dell'account e alle politiche di conservazione di Google. Puoi gestire o eliminare i dati associati al Gioco nel <a href="https://play.google.com/games/profile" rel="noopener noreferrer">tuo profilo Play Games</a>. L'eliminazione può incidere su obiettivi o progressi e non cancella automaticamente i dati locali memorizzati su altri dispositivi.</li>
+        <li><strong>Dati pubblicitari e del consenso:</strong> i periodi di conservazione sono determinati da Google e, quando applicabile, dai partner pubblicitari secondo le rispettive politiche e gli obblighi di legge.</li>
+        <li><strong>Informazioni sugli acquisti:</strong> possono essere conservate da Google Play per transazioni, prevenzione delle frodi, contabilità e altri obblighi di legge.</li>
+        <li><strong>Unity Diagnostics nelle versioni in cui è attivo:</strong> Unity documenta un periodo di conservazione predefinito di 90 giorni. Disattivare la funzione in una build successiva non elimina immediatamente i dati raccolti prima.</li>
+        <li><strong>Corrispondenza con il supporto:</strong> i messaggi inviati volontariamente possono essere conservati per il tempo necessario a rispondere e rispettare eventuali obblighi pertinenti; non viene dichiarato un termine fisso.</li>
       </ul>
+      <p>Per domande o richieste relative ai diritti sulla privacy applicabili, inclusa la cancellazione, puoi scrivere a <a href="mailto:support@offquantumstudios.com">support@offquantumstudios.com</a>. Valutiamo le richieste che riguardano i dati sotto la nostra responsabilità. Per i dati gestiti autonomamente da Google o altri fornitori potrebbe essere necessario utilizzare anche i relativi strumenti o rivolgersi a loro. Non possiamo garantire la cancellazione di ogni registrazione nei casi in cui si applichino eccezioni di legge.</p>
+
+
 
       <h2>15. Minori</h2>
       <p>Cat Logistics è destinato a utenti di almeno 13 anni. Non chiediamo agli utenti di fornirci direttamente dati personali quali nome, numero di telefono, indirizzo postale o fotografie personali attraverso il Gioco.</p>
       <p>Google Play, i servizi pubblicitari e i sistemi di consenso possono applicare protezioni aggiuntive in funzione dell'età, della regione e della configurazione del pubblico del Gioco.</p>
 
       <h2>16. I tuoi diritti sulla privacy</h2>
-      <p>A seconda del luogo in cui vivi, puoi avere diritti legali relativi ai dati personali, inclusi diritti di accesso, informazione, rettifica, cancellazione, limitazione, opposizione o revoca del consenso.</p>
-      <p>Gli utenti dello Spazio Economico Europeo possono inoltre avere il diritto di presentare reclamo all'autorità di controllo competente in materia di protezione dei dati personali.</p>
-      <p>Il consenso pubblicitario può essere riesaminato o modificato tramite le opzioni privacy disponibili nel Gioco, dove disponibili. Alcune informazioni vengono trattate direttamente da Google o Unity e le richieste relative ai dati controllati da tali fornitori potrebbero dover essere inviate tramite i rispettivi strumenti per la privacy o la gestione dell'account.</p>
+<p>In base al luogo in cui vivi e alla normativa applicabile, puoi avere diritto all'informazione, all'accesso, alla rettifica, alla cancellazione, alla limitazione, alla portabilità dei dati o all'opposizione al trattamento e alla revoca del consenso, senza pregiudicare la liceità del trattamento precedente.</p>
+      <p>Dove disponibili nel Gioco, le scelte relative alla pubblicità possono essere riesaminate e modificate in Impostazioni → Opzioni privacy. Alcuni trattamenti dei fornitori indipendenti sono soggetti alle loro informative e ai loro strumenti di controllo.</p>
+      <p>Per i diritti relativi ai dati sotto la nostra responsabilità puoi scrivere a <a href="mailto:support@offquantumstudios.com">support@offquantumstudios.com</a>. Se ti trovi nello Spazio Economico Europeo, puoi anche proporre reclamo all'autorità di controllo competente in materia di protezione dei dati personali.</p>
+
+
 
       <h2>17. Trasferimenti internazionali</h2>
-      <p>Google, Unity e i partner pubblicitari possono trattare informazioni in paesi diversi da quello in cui risiedi. Quando richiesto dalla legge, tali fornitori sono responsabili dell'applicazione di garanzie adeguate per i trasferimenti internazionali dei dati personali.</p>
+<p>Google, Unity e i partner pubblicitari possono trattare dati in Paesi diversi da quello di residenza, anche al di fuori dello Spazio Economico Europeo. Quando applicabile, noi e i fornitori pertinenti ci affidiamo ai meccanismi e alle garanzie per i trasferimenti richiesti dalla normativa sulla protezione dei dati, come ulteriormente descritto nelle informative dei rispettivi fornitori.</p>
 
-      <h2>18. Modifiche all'informativa</h2>
+
+
+      <h2>18. Basi giuridiche del trattamento</h2>
+      <p>Quando si applica il Regolamento generale sulla protezione dei dati (GDPR), la base giuridica dipende dallo specifico trattamento: la fornitura delle funzioni richieste del Gioco, la sincronizzazione cloud e le funzionalità relative agli acquisti possono essere necessarie all'esecuzione di un contratto (articolo 6, paragrafo 1, lettera b); i trattamenti per i quali è richiesto il consenso, in particolare determinate finalità pubblicitarie, si basano sul consenso (lettera a); i trattamenti imposti dalla legge possono basarsi su obblighi legali (lettera c).</p>
+      <p>La sicurezza, la prevenzione delle frodi e il mantenimento dell'affidabilità del Gioco possono, nei casi consentiti, basarsi sul legittimo interesse (lettera f), previa valutazione del bilanciamento degli interessi e nel rispetto delle eventuali regole specifiche sulla memorizzazione o sull'accesso alle informazioni del dispositivo. Queste indicazioni non eliminano gli obblighi di consenso previsti dalla normativa applicabile sulla privacy o sulle comunicazioni elettroniche. Anche il trattamento diagnostico delle precedenti build di test richiede tale valutazione.</p>
+
+      <h2>19. Modifiche all'informativa</h2>
       <p>Potremo aggiornare questa Informativa sulla Privacy quando Cat Logistics cambia, vengono introdotte nuove funzionalità, cambiano i fornitori di servizi o vengono aggiornati i requisiti normativi. La data “Ultimo aggiornamento” indicata all'inizio della pagina identifica la revisione più recente.</p>
 
-      <h2>19. Contatti</h2>
+      <!-- REVISIONE PRIMA DELLA PUBBLICAZIONE: confermare identità giuridica e recapito postale del titolare. Non inventare dati. -->
+      <h2>20. Contatti</h2>
       <p><strong>Off Quantum Studios</strong><br>
       Privacy e supporto: <a href="mailto:support@offquantumstudios.com">support@offquantumstudios.com</a></p>
     </section>
